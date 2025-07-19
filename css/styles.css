@@ -45,7 +45,7 @@ a {
 .contacts-link:focus {
   color: #404bbf;
 }
-.contact {
+.contacts {
   font-style: normal;
 }
 .contacts-link {
@@ -54,13 +54,16 @@ a {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.h1-text {
+.solutions {
+  background-color: #2e2f42;
+}
+.solutions-title {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
-  background-color: #2e2f42;
+
   color: #fff;
 }
 .button-order-service {
@@ -77,12 +80,18 @@ a {
   background-color: #404bbf;
 }
 
+.principles {
+  background-color: #f4f4fd;
+}
 .principles-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+}
+.principles-list {
+  background-color: #ffffff;
 }
 
 .principles-text {
@@ -128,9 +137,10 @@ a {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
   color: #2e2f42;
 }
-.servis {
+.servise {
   font-weight: 500;
   font-size: 20px;
 
@@ -138,6 +148,11 @@ a {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+}
+.description-servise {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 
 .footer-page {
